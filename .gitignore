@@ -1,0 +1,7 @@
+assets/
+venv/
+work.py
+.idea/
+output/
+temp/
+__pycache__/
