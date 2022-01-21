@@ -2,7 +2,6 @@ import logging
 import subprocess
 from os import mkdir
 from os.path import exists, abspath, join, dirname, realpath
-
 from clocer.CustomExceptions import ConfigureError
 
 

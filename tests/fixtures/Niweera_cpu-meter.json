@@ -1,0 +1,39 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "1.82",
+  "elapsed_seconds"    : 0.191731929779053,
+  "n_files"            : 11,
+  "n_lines"            : 944,
+  "files_per_second"   : 57.3717690771492,
+  "lines_per_second"   : 4923.54090989353,
+  "report_file"        : "/mnt/d/Files/Other/GitHub/CLOCer/clocer/output/Niweera_cpu-meter.json"},
+"JSON" :{
+  "nFiles": 2,
+  "blank": 0,
+  "comment": 0,
+  "code": 667},
+"Arduino Sketch" :{
+  "nFiles": 1,
+  "blank": 21,
+  "comment": 5,
+  "code": 67},
+"JavaScript" :{
+  "nFiles": 3,
+  "blank": 10,
+  "comment": 9,
+  "code": 54},
+"Markdown" :{
+  "nFiles": 1,
+  "blank": 36,
+  "comment": 0,
+  "code": 49},
+"XML" :{
+  "nFiles": 4,
+  "blank": 0,
+  "comment": 0,
+  "code": 26},
+"SUM": {
+  "blank": 67,
+  "comment": 14,
+  "code": 863,
+  "nFiles": 11} }

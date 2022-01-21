@@ -42,12 +42,3 @@ class GitCloner:
                 logging.info(f"cleaned up in {clone_path}")
         except Exception as e:
             raise CloneError(e)
-
-    @staticmethod
-    def check_repo() -> str:
-        try:
-            clone_path = abspath(join(dirname(realpath(__file__)), "temp", "clone"))
-            cloned_repo = Repo(clone_path)
-            return cloned_repo.remotes[0].config_reader.get("url")
-        except Exception as e:
-            raise CloneError(e)

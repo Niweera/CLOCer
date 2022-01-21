@@ -7,10 +7,26 @@ This package uses [CLOC](https://github.com/AlDanial/cloc) under the hood and cu
 ## Example
 
 ```python
+# Run CLOCer once
+
 from clocer import CLOCer
 
 if __name__ == "__main__":
+    CLOCer.setup()
     CLOCer.run("https://github.com/Niweera/CLOCer")
+```
+
+```python
+# Run CLOCer for multiple repositories
+
+from clocer import CLOCer
+
+repos = ["https://github.com/Niweera/CLOCer"]
+
+if __name__ == "__main__":
+    CLOCer.setup()
+    for repo in repos:
+        CLOCer.run(repo)
 ```
 
 The output will be saved in a JSON file as `/clocer/output/Niweera_CLOCer.json`.

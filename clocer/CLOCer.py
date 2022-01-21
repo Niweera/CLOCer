@@ -13,12 +13,18 @@ class CLOCer:
     """
 
     @staticmethod
-    def run(url):
+    def setup():
         try:
             assert system() == "Linux", "CLOCer only supports Linux platforms"
             Configure.check_cloc()
             Configure.setup_output()
             logging.info("CLOCer initiated")
+        except Exception as e:
+            raise CLOCerError(e)
+
+    @staticmethod
+    def run(url):
+        try:
             GitCloner.clone_repo(url)
 
             repo_name = url.replace("https://github.com/", "").replace("/", "_")
