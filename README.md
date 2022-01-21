@@ -12,7 +12,9 @@
 
 This is a Python program to get the source lines of code (SLOC) count for a given GitHub repository.
 
-This package uses [CLOC](https://github.com/AlDanial/cloc) under the hood and currently only supports Linux systems.
+This package uses [CLOC](https://github.com/AlDanial/cloc) under the hood and currently only supports Linux systems. 
+
+`CLOCer` will automatically install [`CLOC`](https://github.com/AlDanial/cloc) if it is not found in `$PATH` (Requires `sudo` privileges).
 
 ## Example
 
