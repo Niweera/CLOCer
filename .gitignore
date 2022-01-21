@@ -5,3 +5,6 @@ work.py
 output/
 temp/
 __pycache__/
+htmlcov/
+.coverage
+coverage.xml

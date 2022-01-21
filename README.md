@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/Niweera/CLOCer/branch/main/graph/badge.svg?token=XMEL8AB56Q)](https://codecov.io/gh/Niweera/CLOCer)
+
 # CLOCer
 
 This is a Python program to get the source lines of code (SLOC) count for a given GitHub repository.

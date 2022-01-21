@@ -19,19 +19,23 @@ class Configure:
             )
             return
         except subprocess.CalledProcessError:
-            try:
-                logging.info("Now installing CLOC")
-                result = subprocess.run(
-                    ["sudo", "apt", "install", "cloc", "-y"],
-                    stdout=subprocess.DEVNULL,
-                    stderr=subprocess.DEVNULL,
-                )
-                if result.returncode == 0:
-                    logging.info("Successfully installed CLOC")
-                else:
-                    raise Exception("Error occurred in installing CLOC")
-            except Exception as e:
-                raise ConfigureError(e)
+            Configure.install_cloc()
+
+    @staticmethod
+    def install_cloc():
+        try:
+            logging.info("Now installing CLOC")
+            result = subprocess.run(
+                ["sudo", "apt", "install", "cloc", "-y"],
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+            )
+            if result.returncode == 0:
+                logging.info("Successfully installed CLOC")
+            else:
+                raise Exception("Error occurred in installing CLOC")
+        except Exception as e:
+            raise ConfigureError(e)
 
     @staticmethod
     def setup_output():
