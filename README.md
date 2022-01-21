@@ -1,6 +1,14 @@
+[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Niweera/CLOCer/CodeQL?label=CodeQL%20Analysis)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Niweera/CLOCer/Testing%20and%20Publishing%20to%20Codecov?label=Testing)
 [![codecov](https://codecov.io/gh/Niweera/CLOCer/branch/main/graph/badge.svg?token=XMEL8AB56Q)](https://codecov.io/gh/Niweera/CLOCer)
+![GitHub](https://img.shields.io/github/license/Niweera/CLOCer)
+[![GitHub release](https://img.shields.io/github/release/Niweera/CLOCer.svg)](https://GitHub.com/Niweera/CLOCer/releases/)
 
-# CLOCer
+# CLOCer 
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 This is a Python program to get the source lines of code (SLOC) count for a given GitHub repository.
 
